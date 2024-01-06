@@ -23,6 +23,7 @@ public class LoginTest {
 		WebElement BtnLogin = driver.findElement(By.id("pass"));
 		BtnLogin.click();
 		
+		
 		Thread.sleep(3000);
 		
 		driver.quit();
