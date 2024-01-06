@@ -19,6 +19,9 @@ public class LoginTest {
 
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("Hello@1234");
+
+		WebElement BtnLogin = driver.findElement(By.id("pass"));
+		BtnLogin.click();
 		
 		Thread.sleep(3000);
 		
