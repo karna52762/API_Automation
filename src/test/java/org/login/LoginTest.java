@@ -14,8 +14,18 @@ public class LoginTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 
-		Thread.sleep(3000);
+		WebElement txtUsername = driver.findElement(By.id("email"));
+		txtUsername.sendKeys("karna52762");
 
+		WebElement txtPassword = driver.findElement(By.id("pass"));
+		txtPassword.sendKeys("Hello@1234");
+		
+		Thread.sleep(3000);
+		
 		driver.quit();
+
+		
+
+
 	}
 }
