@@ -15,12 +15,12 @@ public class LoginTest {
 		driver.get("https://www.facebook.com/");
 
 		WebElement txtUsername = driver.findElement(By.id("email"));
-		txtUsername.sendKeys("karna52762");
+		txtUsername.sendKeys("Hello00002@gmail.com");
 
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("Hello@1234");
 
-		WebElement BtnLogin = driver.findElement(By.id("pass"));
+		WebElement BtnLogin = driver.findElement(By.xpath("//*[@type='submit']"));
 		BtnLogin.click();
 		
 		
