@@ -20,7 +20,7 @@ public class LoginTest {
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys("Hello@1234");
 
-		WebElement BtnLogin = driver.findElement(By.xpath("//*[@type='submit']"));
+		WebElement BtnLogin = driver.finElement(By.xpath("//*[@type='submit']"));
 		BtnLogin.click();
 		
 		
